@@ -151,7 +151,7 @@ if (!isset($_SESSION['username'])) {
         หมายเลขอ้างอืง <?php echo $rs['reference_number']; ?>
 
         <div class="mt-3">
-            <a href="edit_from_data.php?i_id=<?php echo $rs['i_id']; ?>" class="btn btn-warning ">แก้ไขข้อมูล</a>
+            <a href="edit_from_data.php?i_id=<?php echo $rs['i_id']; ?>" class="btn btn-warning ">รายละเอียดการจอง/ชำระเงิน</a>
         </div>
         <?php
 

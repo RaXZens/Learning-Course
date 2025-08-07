@@ -165,8 +165,8 @@
 
   <!-- footer -->
   <footer class="site-footer my-4 bg-warning mb-0 ">
-    <div class="container">
-      <div class="row">
+    <div class="container mt-3">
+      <div class="row ">
         <div class="col-sm-12 col-md-6">
           <h6><strong>สามรถติดต่อ-สอบถามได้ที่</strong></h6>
           <p class="text-justify">DAY ONE Learning and Beyond ศูนย์การเรียนรู้เพื่อเสริมสร้างพัฒนาการ ภูเก็ต

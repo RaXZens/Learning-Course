@@ -68,7 +68,7 @@
 
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg mb-4 sticky-top">
-        <div class="container">
+        <div class="container ">
             <a href="user.php" class="d-inline-flex link-body-emphasis text-decoration-none">
                 <div class="img"><img src="image/image1.jpg" width="110" height="50"></div>
             </a>
@@ -228,7 +228,7 @@
 <!-- cards -->
   <!-- footer -->
 <footer class="site-footer my-4 bg-warning mb-0">
-    <div class="container">
+    <div class="container mt-3">
       <div class="row">
         <div class="col-sm-12 col-md-6">
           <h6><strong>สามรถติดต่อ-สอบถามได้ที่</strong></h6>

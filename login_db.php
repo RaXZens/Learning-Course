@@ -16,11 +16,12 @@
        }
 
        if(count($errors)==0){
-        $password=($password);
-        $query = "SELECT * FROM user WHERE username = '$Username' AND password ='$password'";
+        $query = "SELECT * FROM user WHERE username = '$Username'";
         $result = mysqli_query($conn,$query);
 
-            if (mysqli_num_rows($result)==1){                          
+            if (mysqli_num_rows($result)==1){                      
+               $row= mysqli_fetch_assoc($result);
+               if(password_verify($password,$row['password']))    
                 $_SESSION['username'] = $Username;
                 $_SESSION['email'] = $email;
                 $_SESSION['success'] = "your are now logged in";
